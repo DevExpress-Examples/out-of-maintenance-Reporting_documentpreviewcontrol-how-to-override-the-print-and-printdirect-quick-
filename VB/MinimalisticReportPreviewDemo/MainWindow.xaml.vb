@@ -15,9 +15,13 @@ Namespace DXSample
 		End Sub
 
 		Private Sub Window_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
-			Dim report As New XtraReport1()
-			Dim preview = New MyDocumentPreviewControl() With {.DocumentSource = report}
-			Dim window() As New Window() With {.Content = preview}
+			Dim report As XtraReport1 = New XtraReport1()
+			Dim preview = New MyDocumentPreviewControl() With {
+				.DocumentSource = report
+			}
+			Dim window = New Window() With {
+				.Content = preview
+			}
 			report.CreateDocument(True)
 			window.ShowDialog()
 		End Sub
