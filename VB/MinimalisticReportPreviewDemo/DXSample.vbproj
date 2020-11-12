@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -66,122 +66,97 @@
     <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Charts.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.DataAccess.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Office.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Pdf.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.RichEdit.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.RichEdit.v20.1.Export.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Printing.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Data.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Utils.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Mvvm.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Mvvm.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.CodeView.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Xpf.CodeView.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Data.Desktop.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Core.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Xpf.Core.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.DocumentViewer.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Xpf.DocumentViewer.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Printing.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Xpf.Printing.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Xpo.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.XtraCharts.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.XtraGauges.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.XtraPivotGrid.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.PivotGrid.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.XtraPrinting.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.XtraReports.v20.1.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.Sparkline.v20.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.CodeParser.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\20.1.8\DevExpress.XtraReports.v20.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
