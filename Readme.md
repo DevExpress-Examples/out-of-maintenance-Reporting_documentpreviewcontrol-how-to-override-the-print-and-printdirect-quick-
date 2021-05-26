@@ -8,8 +8,8 @@
 # DocumentPreviewControl - How to override the Print and PrintDirect (Quick Print) commands
 
 
-This example demonstrates how to override commands in the [Document Preview](https://documentation.devexpress.com/#WPF/CustomDocument9697) [DocumentPreviewControl]((https://documentation.devexpress.com/#WPF/clsDevExpressXpfPrintingDocumentPreviewControltopic)). 
-Create a DocumentPreviewControl descendant and override the corresponding methods, e.g., Print and PrintDirect.
+This example demonstrates how to override commands in the [Document Preview](https://docs.devexpress.com/WPF/9697/controls-and-libraries/printing-exporting/concepts/document-preview). 
+Create a [DocumentPreviewControl]((https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.DocumentPreviewControl) descendant and override the corresponding methods, e.g., Print and PrintDirect.
 
 For example:
 ```cs
@@ -35,5 +35,5 @@ public class MyDocumentPreviewControl : DocumentPreviewControl {
 }
 ```
 
-See also: [DocumentPreviewControl - How to override the Export command](https://www.devexpress.com/Support/Center/p/E4482)
+See also: [DocumentPreviewControl - How to override the Export command](https://github.com/DevExpress-Examples/Reporting_documentpreviewcontrol-how-to-override-the-export-command-e4482)
 
