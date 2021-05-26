@@ -9,7 +9,7 @@
 
 
 This example demonstrates how to override commands in the [Document Preview](https://docs.devexpress.com/WPF/9697/controls-and-libraries/printing-exporting/concepts/document-preview). 
-Create a [DocumentPreviewControl]((https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.DocumentPreviewControl) descendant and override the corresponding methods, e.g., Print and PrintDirect.
+Create a [DocumentPreviewControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.DocumentPreviewControl) descendant and override the corresponding methods, e.g., Print and PrintDirect.
 
 For example:
 ```cs
