@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 Imports DevExpress.Xpf.Core
 Imports DevExpress.Xpf.Printing
 ' ...
@@ -10,6 +9,7 @@ Namespace MinimalisticReportPreviewDemo
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			ThemeManager.ApplicationThemeName = "Office2007Silver"
 			InitializeComponent()

@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System.Reflection
+﻿Imports System.Reflection
 Imports System.Resources
 Imports System.Runtime.CompilerServices
 Imports System.Runtime.InteropServices
@@ -13,7 +12,7 @@ Imports System.Windows
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("MinimalisticReportPreviewDemo")>
-<Assembly: AssemblyCopyright("Copyright �  2010")>
+<Assembly: AssemblyCopyright("Copyright ©  2010")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
@@ -32,11 +31,11 @@ Imports System.Windows
 '[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
 
 
+<Assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)> 'where the generic resource dictionary is located - where theme specific resource dictionaries are located
 	'(used if a resource is not found in the page, 
 	' or application resource dictionaries)
 	'(used if a resource is not found in the page, 
 	' app, or any theme specific resource dictionaries)
-<Assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)>
 
 
 ' Version information for an assembly consists of the following four values:

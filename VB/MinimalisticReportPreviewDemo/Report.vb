@@ -1,10 +1,10 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports DevExpress.XtraReports.UI
 
 Namespace MinimalisticReportPreviewDemo
 	Public Class Report
 		Inherits DevExpress.XtraReports.UI.XtraReport
+
 		Private Detail As DevExpress.XtraReports.UI.DetailBand
 		Private topMarginBand1 As DevExpress.XtraReports.UI.TopMarginBand
 		Private nwindDataSet1 As nwindDataSet
@@ -24,11 +24,11 @@ Namespace MinimalisticReportPreviewDemo
 			Me.xrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
 			Me.topMarginBand1 = New DevExpress.XtraReports.UI.TopMarginBand()
 			Me.bottomMarginBand1 = New DevExpress.XtraReports.UI.BottomMarginBand()
-            Me.nwindDataSet1 = New nwindDataSet()
-            Me.productsTableAdapter = New nwindDataSetTableAdapters.ProductsTableAdapter()
+			Me.nwindDataSet1 = New MinimalisticReportPreviewDemo.nwindDataSet()
+			Me.productsTableAdapter = New MinimalisticReportPreviewDemo.nwindDataSetTableAdapters.ProductsTableAdapter()
 			Me.ReportHeader = New DevExpress.XtraReports.UI.ReportHeaderBand()
-			CType(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
 			' 
 			' Detail
 			' 
@@ -41,7 +41,10 @@ Namespace MinimalisticReportPreviewDemo
 			' xrLabel1
 			' 
 			Me.xrLabel1.BookmarkParent = Me.xrLabel2
-			Me.xrLabel1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() { New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Products.ProductName"), New DevExpress.XtraReports.UI.XRBinding("Bookmark", Nothing, "Products.ProductName")})
+			Me.xrLabel1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {
+				New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Products.ProductName"),
+				New DevExpress.XtraReports.UI.XRBinding("Bookmark", Nothing, "Products.ProductName")
+			})
 			Me.xrLabel1.Font = New System.Drawing.Font("Arial", 9.75F)
 			Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
 			Me.xrLabel1.Name = "xrLabel1"
@@ -98,8 +101,8 @@ Namespace MinimalisticReportPreviewDemo
 			Me.FilterString = "[CategoryID] < 4"
 			Me.Margins = New System.Drawing.Printing.Margins(49, 51, 48, 48)
 			Me.Version = "12.2"
-			CType(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
 		End Sub
 

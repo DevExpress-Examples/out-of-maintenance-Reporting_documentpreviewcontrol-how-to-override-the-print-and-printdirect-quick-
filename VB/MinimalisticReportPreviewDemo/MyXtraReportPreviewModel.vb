@@ -1,12 +1,11 @@
-Imports Microsoft.VisualBasic
-Imports System
-Imports DevExpress.Xpf.Printing
+﻿Imports DevExpress.Xpf.Printing
 Imports DevExpress.XtraReports.UI
 Imports DevExpress.XtraPrinting
 
 Namespace MinimalisticReportPreviewDemo
 	Public Class MyXtraReportPreviewModel
 		Inherits XtraReportPreviewModel
+
 		Public Sub New(ByVal report As XtraReport)
 			MyBase.New(report)
 		End Sub
