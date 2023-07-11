@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Xpf.Printing
+Imports DevExpress.Xpf.Printing
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq

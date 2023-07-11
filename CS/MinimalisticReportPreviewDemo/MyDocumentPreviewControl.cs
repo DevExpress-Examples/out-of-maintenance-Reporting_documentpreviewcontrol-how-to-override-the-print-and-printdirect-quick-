@@ -1,4 +1,4 @@
-﻿using DevExpress.Xpf.Printing;
+using DevExpress.Xpf.Printing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
