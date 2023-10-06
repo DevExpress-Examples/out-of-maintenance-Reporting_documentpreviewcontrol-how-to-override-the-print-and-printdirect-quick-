@@ -1,7 +1,4 @@
 using System.Windows;
-using DevExpress.Xpf.Core;
-using DevExpress.Xpf.Printing;
-// ...
 
 namespace DXSample {
     /// <summary>
