@@ -23,4 +23,3 @@ This example demonstrates how to override commands in [DocumentPreview](https://
 ## More Examples
 
 - [DocumentPreviewControl - How to override the Export command](https://github.com/DevExpress-Examples/Reporting_documentpreviewcontrol-how-to-override-the-export-command-e4482)
-
